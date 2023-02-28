@@ -1,0 +1,256 @@
+.container .left-side {
+    position: relative;
+    background: blue;
+    padding: 40px;
+}
+
+.profile-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(5, 238, 17, 0.2);
+}
+
+.profile-text .img-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-text .img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-text h2 {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile-text h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactinfo {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.contactinfo ul {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.contactinfo ul li {
+    list-style: none;
+    margin: 3px 0;
+}
+
+.contactinfo ol {
+    margin-left: 20px;
+}
+
+.contactinfo-language {
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.contactinfo-language div {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+.contactinfo-information {
+    margin-left: 10px;
+}
+
+.contactinfo-information div {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 530;
+}
+
+.contactinfo-rating {
+    margin-left: 10px;
+}
+
+.contactinfo-rating .js {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+.js span {
+    color: gold;
+}
+
+.contactinfo-rating .react {
+    display: flex;
+    justify-content: space-evenly;
+}
+.react span {
+    color: gold;
+}
+
+.contactinfo-rating span {
+    font-size: 1.2em;
+    word-spacing: 2px;
+}
+
+.contactinfo-rating .type {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.container .right-side {
+    position: relative;
+    background: gray;
+    padding: 40px;
+}
+
+.address {
+    text-align: end;
+    font-size: 1.1em;
+    margin-bottom: 50px;
+}
+
+.address div a {
+    text-decoration: none;
+}
+
+.address span {
+    font-size: 1.2em;
+    color: #570c05;
+    margin-right: 5px;
+}
+
+.About {
+    margin-bottom: 50px;
+}
+.About .title2 span {
+    font-size: 0.8em;
+}
+
+.About ul {
+    margin-left: 20px;
+}
+
+.About ul li {
+    list-style: square;
+    font-size: 1.1em;
+}
+
+.contactinfo-education {
+    padding-top: 30px;
+}
+
+.contactinfo-education h5 {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.contactinfo-education ul {
+    margin-left: 20px;
+}
+
+.contactinfo-education ul li {
+    list-style: square;
+    font-size: 1.1em;
+}
+
+.about-certificate ul {
+    margin-left: 20px;
+}
+
+.about-certificate ul li {
+    list-style: square;
+    font-size: 1.2em;
+}
+
+.about-skills div {
+    font-size: 1.3em;
+}
+
+.about-date {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.name {
+    text-align: end;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+/* utiliti classes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0px 30px 30px rgb(66, 70, 71);
+
+}
+
+.title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.title2 {
+    color: #0E6251;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.About div {
+    color: black;
+    font-size: 1.2em;
+}

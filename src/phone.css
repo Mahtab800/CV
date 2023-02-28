@@ -1,0 +1,60 @@
+@media (max-width:1200px)
+{
+    .container {
+        margin: 50px 50px;
+    }
+}
+
+@media  (max-width:450px)
+ {
+    .container {
+        margin: 50px 50px;
+    }
+    .profile-text .img-box {
+        width: 150px;
+    height: 150px;
+    }
+    .profile-text h2 {
+        font-size: 1.3em;
+        line-height: 1.2em;
+    }
+    .contactinfo-rating .js {
+        display: grid;
+        justify-content: space-evenly;
+        margin-bottom: 5px;
+        margin-left: -31px;
+    }
+    .contactinfo-rating .react {
+        display: grid;
+        justify-content: space-evenly;
+        margin-left: -31px;
+    }
+    .address {
+        margin-bottom: 30px;
+    }
+    .title2 {
+        font-size: 1.3em;
+    }
+    .About div {
+        font-size: 1em;
+    }
+    .About {
+        margin-bottom: 10px:
+    }
+    .contactinfo-education {
+        padding-top: 0px;
+    }
+    .title2 {
+        letter-spacing: 0px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+    .about-date {
+        margin-bottom: -15px;
+        margin-top: 10px;
+    }
+    .about-date .last {
+        display: grid;
+    }
+    
+}
